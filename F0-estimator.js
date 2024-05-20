@@ -13,8 +13,12 @@ export default class F0Estimator
     /**
      * Initializes the F0Estimator with precision epsilon and confidence delta.
      *
-     * @param {number} epsilon - Precision of the estimate, must be between 0 and 1 (non-inclusive)
+     * @param {number} epsilon - Precision of the estimate, must be between 0 and 1 (non-inclusive).
+     *                           Or, tolerance with respect to the actual count.
+     *                           It was said that 0.8 works fine for most practical applications.
      * @param {number} delta - Confidence in the estimate, must be between 0 and 1 (non-inclusive)
+     *                         I.e. how often are you willing to be wrong.
+     *                         It was said that 0.1 works fine for most practical applications.
      */
     constructor(epsilon, delta)
     {
