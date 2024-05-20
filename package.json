@@ -1,0 +1,12 @@
+{
+  "name": "f0estimator",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Estimate the number of distinct elements in a data stream using a minimal (configurable) amount of memory.",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joakim Romland",
+  "license": "MIT"
+}
